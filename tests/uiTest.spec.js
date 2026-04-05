@@ -52,5 +52,5 @@ test('Demoqa Book Store Testcase', async({ page })=>{
 
     // Logout
     await bookStorePage.clickLogoutBtn();
-	await page.screenshot({path: "/Users/khushi/Desktop/FinacPlus_CaseStudy/Screenshot/screenshot.png"});
+	await page.screenshot({path: "./Screenshot/screenshot.png"});
 })
